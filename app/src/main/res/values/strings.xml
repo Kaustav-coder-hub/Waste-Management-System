@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Waste Management App</string>
+    <string name="wastesortingdata">
+        <u><i>Waste Sorting Data</i></u>
+    </string>
+    <string name="wet_waste_bin">Wet Waste Bin</string>
+    <string name="metallic_waste_bin">Metallic Waste Bin</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+    <string name="wastemanag">Waste Management</string>
+    <string name="waste_manag_dash">Waste Management Dashboard</string>
+    <string name="dry_waste_bin">Dry Waste Bin</string>
+    <string name="update_progress">Update Progress</string>
+    <string name="update_dry_progress">Update Dry Waste Progress</string>
+    <string name="update_wet_progress">Update Wet Waste Progress</string>
+    <string name="update_metallic_progress">Update Metallic Waste Progress</string>
+    <string name="alert_message">🚨 Wet Waste Bin is Full! 🚨</string>
+
+
+
+
 </resources>

@@ -2,6 +2,30 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="blue">#FF303F9F</color>
+    <color name="purple">#FF673AB7</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="pink">#FFFF4800</color>
+    <color name="gray">#FF808080</color>
+    <color name="dark_gray">#FF404040</color>
+    <color name="light_gray">#FFC0C0C0</color>
+    <color name="dark_blue">#FF000080</color>
+    <color name="light_blue">#FF87CEEB</color>
+    <color name="dark_green">#FF006400</color>
+    <color name="light_green">#FF9CCC65</color>
+    <color name="dark_red">#FF8B0000</color>
+    <color name="light_red">#FFFF8080</color>
+    <color name="dark_yellow">#FF8B4513</color>
+    <color name="light_yellow">#FFFFF59D</color>
+    <color name="dark_purple">#FF800080</color>
+    <color name="light_purple">#FFFFE0E0</color>
+    <color name="dark_orange">#FF8B4513</color>
+    <color name="light_orange">#FFFFF59D</color>
+    <color name="dark_pink">#FF8B0000</color>
+    <color name="light_pink">#FFFF8080</color>
     <color name="vector_background_light">#131313</color>
 
 </resources>

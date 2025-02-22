@@ -33,6 +33,7 @@ android {
 
 dependencies {
 
+    implementation(libs.mpandroidchart)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -40,4 +41,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("androidx.drawerlayout:drawerlayout:1.2.0")
+    implementation(libs.material)
 }
