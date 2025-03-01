@@ -15,8 +15,7 @@
     <string name="update_wet_progress">Update Wet Waste Progress</string>
     <string name="update_metallic_progress">Update Metallic Waste Progress</string>
     <string name="alert_message">🚨 Wet Waste Bin is Full! 🚨</string>
-
-
+    <string name="Settings">Seetings</string>
 
 
 </resources>
