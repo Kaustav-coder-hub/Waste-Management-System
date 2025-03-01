@@ -35,7 +35,8 @@ android {
 }
 
 dependencies {
-
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
+    implementation ("androidx.gridlayout:gridlayout:1.0.0")
     implementation(libs.mpandroidchart)
     implementation(libs.appcompat)
     implementation(libs.material)
