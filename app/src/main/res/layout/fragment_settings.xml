@@ -222,8 +222,7 @@
                         <TextView
                             android:id="@+id/tvThresholdValue1"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Threshold: 75%" />
+                            android:layout_height="wrap_content"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -260,8 +259,7 @@
                         <TextView
                             android:id="@+id/tvThresholdValue2"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Threshold: 75%" />
+                            android:layout_height="wrap_content"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -298,8 +296,7 @@
                         <TextView
                             android:id="@+id/tvThresholdValue3"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Threshold: 75%" />
+                            android:layout_height="wrap_content"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>

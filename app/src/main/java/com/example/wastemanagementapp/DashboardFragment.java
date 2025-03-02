@@ -18,7 +18,7 @@ public class DashboardFragment extends Fragment {
 
     private ProgressBar progressDryWaste, progressWetWaste, progressMetalicWaste;
     private TextView tvDryWasteStatus, tvWetWasteStatus, tvMetalWasteStatus;
-    private int currentDryProgress = 50, currentWetProgress = 0, currentMetalicProgress = 0;
+    private int currentDryProgress = 65, currentWetProgress = 95, currentMetalicProgress = 20;
 
     @Nullable
     @Override
