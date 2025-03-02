@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Track when switch is OFF -->
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/dark_gray" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <!-- Track when switch is ON -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/dark_purple" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</selector>

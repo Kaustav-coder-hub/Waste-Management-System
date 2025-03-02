@@ -5,9 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".SettingsFragment">
@@ -32,8 +29,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingTop="50dp">
-            
-            
+
+
             <!--    Bin Control-->
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -74,11 +71,11 @@
                                 android:textSize="18sp"
                                 android:textStyle="bold"/>
 
-                            <Button
-                                android:id="@+id/btnOpenLid1"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Open Bin Lid"/>
+<!--                            <Button-->
+<!--                                android:id="@+id/btnOpenLid1"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="Open Bin Lid"/>-->
 
                             <Button
                                 android:id="@+id/btnRotateBin1"
@@ -114,11 +111,11 @@
                                 android:textSize="18sp"
                                 android:textStyle="bold"/>
 
-                            <Button
-                                android:id="@+id/btnOpenLid2"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Open Bin Lid"/>
+<!--                            <Button-->
+<!--                                android:id="@+id/btnOpenLid2"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="Open Bin Lid"/>-->
 
                             <Button
                                 android:id="@+id/btnRotateBin2"
@@ -154,11 +151,6 @@
                                 android:textSize="18sp"
                                 android:textStyle="bold"/>
 
-                            <Button
-                                android:id="@+id/btnOpenLid3"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Open Bin Lid"/>
 
                             <Button
                                 android:id="@+id/btnRotateBin3"
@@ -168,15 +160,30 @@
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
+
+
                 </androidx.gridlayout.widget.GridLayout>
 
             </HorizontalScrollView>
-            
 
-            
-            
-            
-            
+            <Switch
+                android:id="@+id/switchLid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:padding="8dp"
+                android:checked="false"
+                android:showText="false"
+                android:text="Lid Control"
+                android:textAlignment="center"
+                android:textOff="Close"
+                android:textOn="Open"
+                android:thumb="@drawable/custom_thumb"
+                android:track="@drawable/custom_track"
+                android:switchMinWidth="10dp"
+                android:switchPadding="8dp" />
+
             <!--    Threshold Settings-->
             <LinearLayout
                 android:layout_width="match_parent"

@@ -10,8 +10,14 @@ constraintlayout = "2.2.0"
 mpandroidchart = "v3.1.0"
 navigationFragment = "2.6.0"
 navigationUi = "2.6.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+firebase-bom = "32.3.1"  # ✅ Keep only one instance!
+google-services = "4.3.10"
 
 [libraries]
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }  # ✅ Add this
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -25,4 +31,5 @@ navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 
